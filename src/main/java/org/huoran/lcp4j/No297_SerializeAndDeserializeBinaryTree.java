@@ -1,6 +1,7 @@
 package org.huoran.lcp4j;
 
 import com.alibaba.fastjson.JSONObject;
+import org.huoran.lcp4j.common.TreeNode;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -27,13 +28,6 @@ import java.util.LinkedList;
  * Your serialize and deserialize algorithms should be stateless.
  */
 public class No297_SerializeAndDeserializeBinaryTree {
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { this.val = x; }
-    }
 
     public static String serialize(TreeNode root) {
         StringBuilder stringBuilder = new StringBuilder();

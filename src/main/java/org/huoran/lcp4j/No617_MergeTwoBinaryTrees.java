@@ -1,5 +1,7 @@
 package org.huoran.lcp4j;
 
+import org.huoran.lcp4j.common.TreeNode;
+
 /**
  * Created by Naozi on 2017/6/26.
  *
@@ -26,14 +28,6 @@ package org.huoran.lcp4j;
  *
  */
 public class No617_MergeTwoBinaryTrees {
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         // get node val
